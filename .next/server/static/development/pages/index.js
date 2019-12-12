@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1894,10 +1894,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/_error.js":
-/*!*************************!*\
-  !*** ./pages/_error.js ***!
-  \*************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1909,13 +1909,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "next/router");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/alee/Documents/Learning/React/react-nextjs-project/pages/_error.js";
+var _jsxFileName = "/Users/alee/Documents/Learning/React/react-nextjs-project/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
-const errorPage = () => __jsx("div", {
+const indexPage = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
@@ -1927,14 +1927,14 @@ const errorPage = () => __jsx("div", {
     lineNumber: 7
   },
   __self: undefined
-}, "Something went wrong."), __jsx("p", {
+}, "The Main Page"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 8
   },
   __self: undefined
-}, "Try ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/",
+}, "Go to ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/auth",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 8
@@ -1946,7 +1946,7 @@ const errorPage = () => __jsx("div", {
     lineNumber: 8
   },
   __self: undefined
-}, "going back"))), __jsx("button", {
+}, "Auth"))), __jsx("button", {
   onClick: () => next_router__WEBPACK_IMPORTED_MODULE_2___default.a.push('/auth'),
   __source: {
     fileName: _jsxFileName,
@@ -1955,18 +1955,18 @@ const errorPage = () => __jsx("div", {
   __self: undefined
 }, "Go to Auth"));
 
-/* harmony default export */ __webpack_exports__["default"] = (errorPage);
+/* harmony default export */ __webpack_exports__["default"] = (indexPage);
 
 /***/ }),
 
-/***/ 3:
-/*!*******************************!*\
-  !*** multi ./pages/_error.js ***!
-  \*******************************/
+/***/ 4:
+/*!******************************!*\
+  !*** multi ./pages/index.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/alee/Documents/Learning/React/react-nextjs-project/pages/_error.js */"./pages/_error.js");
+module.exports = __webpack_require__(/*! /Users/alee/Documents/Learning/React/react-nextjs-project/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -2148,4 +2148,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=_error.js.map
+//# sourceMappingURL=index.js.map
